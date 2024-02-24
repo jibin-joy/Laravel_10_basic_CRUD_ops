@@ -6,7 +6,10 @@
                 <div class="card">
                     <div class="card-header">
                         <h4>Categories</h4>
-                        <a href="" class="btn btn-primary float-end">Add Category</a>
+                        <a href="{{ route('category.create') }}" class="btn btn-primary float-end">Add Category</a>
+                    </div>
+                    <div class="card-body">
+                        t
                     </div>
                 </div>
             </div>
